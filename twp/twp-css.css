@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding:0;
+	color: #2a2a2a;
+    background: #5a5a5a;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; /* replace with your choice of font-family list from Dreamweaver or elsewhere */
+    font-size: 20px;
+    line-height: 150%;  /* adjust as needed */
+	
+}
+
+
+		
+
+
+.wrapper {
+	width: 1000px;
+	padding: 36px;
+	margin: 0 auto;
+	border: 2px white solid;
+	background: white
+	
+	
+}
+
+a{
+	color:cornflowerblue;
+		
+	
+	
+}
+
+a:hover {
+	color: darkblue
+	
+}
+
+/*nav.sitenav {
+	color: beige;
+	background: aquamarine;
+	padding: 4px 0;
+	
+} */
+
+nav.sitenav a {
+	color: darkseagreen;
+	font-weight: bold;
+	font-size: 110%;
+	text-decoration: none;
+	padding: 4px;
+}
+
+
+
+nav.sitenav a:hover {
+	color: black;
+	
+	
+	
+}
+
+
+nav.pagenav a {
+	text-decoration: none;
+}
