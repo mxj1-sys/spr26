@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding:0;
+	color: #2a2a2a;
+    background: #F3F3F3;
+	font-family: Arial, sans-serif; /* replace with your choice of font-family list from Dreamweaver or elsewhere */
+    font-size: 20px;
+    line-height: 150%;  /* adjust as needed */
+	
+}
+
+
+		
+
+
+.wrapper {
+	width: 1000px;
+	padding: 36px;
+	margin: 0 auto;
+	border: 2px white solid;
+	background: #DBEDF9
+	
+	
+}
+
+a{
+	color:cornflowerblue;
+		
+	
+	
+}
+
+a:hover {
+	color: darkblue
+	
+}
+
+/*nav.sitenav {
+	color: beige;
+	background: aquamarine;
+	padding: 4px 0;
+	
+} */
+
+nav.sitenav a {
+	color: white;
+	font-weight: bold;
+	font-size: 110%;
+	text-decoration: none;
+	padding: 4px;
+}
+
+
+
+nav.sitenav a:hover {
+	color: black;
+	
+	
+	
+}
+
+
+nav.pagenav a {
+	text-decoration: none;
+}
+
+div.gallery-grid {
+	img: 300px}
+
+div.gallery-grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-row-gap: 20px ;
+            justify-items: center;
+            align-items: start;
+            justify-content: space-between;
+        }
+
+
+ div.gallery-item {
+            width: 300px; /*should match the width of your images + width of border (if any) */
+            text-align: center;
+	 	
+}
+
+.gallery-item img {
+    border: 3px solid white;   /* only the image gets the border */
+    border-radius: 5px;        /* optional: rounded corners */
+    padding: 2px;              /* optional: spacing between image and border */
+    display: block;            /* ensures image is block-level */
+	max-width: 100%; }  /* responsive */
+         
+
+table{
+            border-collapse: collapse;
+            width: 100%;
+			table-layout: fixed;
+			background: white
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+			
+			border-collapse: collapse;
+    
+        }
+
+/* Top nav bar */
+nav.sitenav {
+    display: flex;                    /* horizontal layout */
+    align-items: center;              /* vertically center logo & links */
+    justify-content: space-between;   /* logo left, links right */
+    background-color: #2c3e50;        /* dark blue/navy bar */
+    padding: 10px 20px;
+}
+
+/* Logo styling */
+nav.site-logo {
+    display: flex;                    /* logo text + icons inline */
+    align-items: center;
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Space between multiple icons and text */
+nav.site-logo i {
+    margin-right: 5px;
+    font-size: 28px;
+}
+
+nav.site-name {
+    margin-left: 5px;
+}
+
+/* Navigation links on the right */
+nav.nav-links {
+    display: flex;                    /* make links horizontal */
+    gap: 15px;                        /* space between links */
+}
+
+nav.nav-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for links */
+nav.nav-links a:hover {
+    color: #2c3e50;
+    background-color: #ecf0f1;
+}
+
