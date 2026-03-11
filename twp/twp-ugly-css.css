@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lead-display {
+	width: 900px;
+	height: 675px;
+	bakcground-image:(use the image);
+	position: relative
+	
+}
+
+.lead-display h1{
+	background: white;
+	font-size: 3em
+	width: 100%;
+	padding: 1em 0;
+	margin: 0;
+	positon:absolute;
+	top: 100px;
+	left: 0px;
+}
