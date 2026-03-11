@@ -41,6 +41,10 @@ h1 .subtitle {
     color: #555;
 }
 
+ul li a {
+    font-weight: normal;
+}
+
 /* Main wrapper */
 .wrapper {
     max-width: 1000px;
@@ -233,3 +237,5 @@ h1[id]::before {
     margin-top: -80px; /* same as height to offset scroll */
     visibility: hidden;
 }
+
+
