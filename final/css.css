@@ -129,6 +129,7 @@ main, footer {
 /* ---------------- PAGE SECTION NAVIGATION ---------------- */
 
 #page-nav {
+	 text-align: left;
     margin: 10px 0 30px 0;
     padding: 0;
 }
@@ -264,4 +265,95 @@ p {
 .review-block article,
 .review-block .sidebar {
     height: 100%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.worldmap {
+    width: 900px;
+    height: 900px;
+    background: url("images/rutgers.campus.map.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 20px auto;
+    border: 1px solid #888;
+}
+
+.worldmap-item {
+    position: absolute;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.bird-icon {
+    color: #EF1216;
+}
+
+.worldmap-item span {
+    display: none;
+    position: absolute;
+    left: 28px;
+    top: 0;
+    background: #f5f1dd;
+    color: #2b2b2b;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.worldmap-item:hover span {
+    display: inline-block;
+}
+
+/* marker positions */
+#livi-pin {
+    top: 175px;
+    left: 400px;
+}
+
+#busch-pin {
+    top: 150px;
+    left: 175px;
+}
+
+#college-pin {
+    top: 405px;
+    left: 455px;
+}
+
+#cook-pin {
+    top: 705px;
+    left: 700px;
+}
+
+.bird-sections {
+    text-align: left;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.bird-sections h2 {
+    margin-top: 40px;
+}
+.map-credit {
+    width: 900px;
+    margin: 10px auto 30px auto;
+    font-size: 12px;
+    color: #2a2a2a;
+    background-color:none;
+    padding: 8px;
+    border-radius: 6px;
+    text-align: center;
 }
