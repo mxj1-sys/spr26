@@ -11,6 +11,7 @@
 
 body {
     margin: 0;
+	align-items: left;
     padding: 0;
     color: #2a2a2a;
     background: #F3F3F3;
@@ -252,6 +253,7 @@ section {
 
 p {
     margin: 1em 0;
+	align-items: left;
 }
 
 .review-block {
@@ -271,7 +273,6 @@ p {
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    text-align: center;
 }
 
 main {
@@ -355,5 +356,5 @@ main {
     background-color:none;
     padding: 8px;
     border-radius: 6px;
-    text-align: center;
+    text-align: left;
 }
