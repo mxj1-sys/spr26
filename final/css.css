@@ -298,7 +298,7 @@ main {
 }
 
 .bird-icon {
-    color: #EF1216;
+    color: black;
 }
 
 .worldmap-item span {
@@ -319,16 +319,28 @@ main {
 }
 
 /* marker positions */
-#livi-pin {
+.map-pin {
+    position: absolute;
+    font-size: 28px;
+    color: black;
+}
+#livi-pin-1 {
     top: 175px;
     left: 400px;
 }
-
-#busch-pin {
-    top: 150px;
-    left: 175px;
+#livi-pin-2 {
+    top: 200px;
+    left: 600px;
 }
 
+#busch-pin-1 {
+    top: 150px;
+    left: 100px;
+}
+#busch-pin-2 {
+    top: 20px;
+    left: 200px;
+}
 #college-pin {
     top: 405px;
     left: 455px;
@@ -337,6 +349,11 @@ main {
 #cook-pin {
     top: 705px;
     left: 700px;
+}
+
+#doug-pin{
+    top: 800px;
+    left: 520px;
 }
 
 .bird-sections {
@@ -357,4 +374,103 @@ main {
     padding: 8px;
     border-radius: 6px;
     text-align: left;
+}
+
+.about-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    color: #1f2a1f;
+}
+
+.about-hero {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #1f2a1f;
+}
+
+.small-label {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+}
+
+.about-hero h1 {
+    font-size: clamp(3rem, 8vw, 7rem);
+    line-height: 0.95;
+    font-weight: 500;
+    max-width: 1000px;
+}
+
+.about-intro {
+    padding: 80px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-intro p {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    max-width: 650px;
+}
+
+.about-list {
+    border-top: 1px solid #1f2a1f;
+}
+
+.about-item {
+    display: grid;
+    grid-template-columns: 80px 250px 1fr;
+    gap: 30px;
+    padding: 45px 0;
+    border-bottom: 1px solid #1f2a1f;
+    align-items: start;
+}
+
+.about-item span {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+.about-item h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.about-item p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.about-author {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.author-image {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.author-image img {
+    width: 250px;
+    height: auto;
+}
+
+.author-text {
+    width: 100%;
+}
+
+.author-text p {
+    max-width: none;
+    width: 100%;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
