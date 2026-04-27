@@ -272,14 +272,13 @@ p {
 
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
 }
 
 main {
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0;
 }
-
 .worldmap {
     width: 900px;
     height: 900px;
@@ -359,9 +358,8 @@ main {
 .bird-sections {
     text-align: left;
     max-width: 900px;
-    margin: 40px auto;
+    margin: 0 auto;
 }
-
 .bird-sections h2 {
     margin-top: 40px;
 }
@@ -379,7 +377,7 @@ main {
 .about-page {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 80px 40px;
+    padding: 30px 40px; 
     color: #1f2a1f;
 }
 
@@ -473,4 +471,61 @@ main {
     width: 100%;
     line-height: 1.6;
     margin-bottom: 20px;
+}
+
+
+
+#page-nav {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#page-nav a {
+  color: #2b647f;
+  text-decoration: none;
+}
+
+#page-nav a:hover {
+  text-decoration: underline;
+}
+
+.page-header-card {
+  width: 100%;
+  max-width: none;
+  margin: 30px 0;
+}
+
+/* Fix huge blank space above Livingston */
+.page-header-card .bird-sections {
+  margin: 0 auto;
+  padding: 0;
+  background: transparent;
+}
+
+.page-header-card .bird-sections h2:first-child {
+  margin-top: 0;
+}
+
+.page-header-card {
+  padding-top: 30px;
+}
+
+/* Fix map page writing card */
+.page-header-card > .bird-sections {
+  padding: 0 !important;
+  margin: 0 auto !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  min-height: 0 !important;
+}
+
+.page-header-card > .bird-sections h2:first-of-type {
+  margin-top: 0 !important;
+}
+
+.page-header-card section {
+  padding: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  border-radius: 0 !important;
 }
