@@ -346,13 +346,13 @@ main {
 }
 
 #cook-pin {
-    top: 705px;
-    left: 700px;
+    top: 800px;
+    left: 520px;
 }
 
 #doug-pin{
-    top: 800px;
-    left: 520px;
+ top: 705px;
+    left: 700px;  
 }
 
 .bird-sections {
