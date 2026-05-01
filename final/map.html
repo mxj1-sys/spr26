@@ -14,12 +14,12 @@
 <header class="site-header">
   <nav class="sitenav">
 
-    <!-- Logo on the left -->
+   
     <a href="home.html" class="site-logo">
 	<img src="images/In flight 2.svg" alt="In Flight Logo">
 	  </a>
 
-    <!-- Navigation links on the right -->
+   
     <div class="nav-links">
 	  <a href="pictorial.html">Pictorials</a>
       <a href="reviews.html">Reviews</a>
@@ -31,7 +31,7 @@
   </nav>
 </header>
     
-<!-- MAP -->
+
 <main>
 	<div class="page-header-card">
   <h1>Birding Locations at Rutgers</h1>
@@ -46,61 +46,83 @@
 	<div class="page-header-card">
   <div class="worldmap">
 
-    <!-- LIVINGSTON -->
+    
     <a href="#livi-spot-1">
-      <div class="map-pin" id="livi-pin-1">
+      <div class="map-pin" id="livi-pin-1" data-name="Ecological Preserve">
         <i class="fa-solid fa-dove"></i>
-        <span class="pin-number">1</span>
+      
       </div>
     </a>
 
     <a href="#livi-spot-2">
-      <div class="map-pin" id="livi-pin-2">
+      <div class="map-pin" id="livi-pin-2" data-name="The Quad">
         <i class="fa-solid fa-dove"></i>
-        <span class="pin-number">2</span>
+        
       </div>
     </a>
 
-    <!-- BUSCH -->
+   
     <a href="#busch-spot-1">
-      <div class="map-pin" id="busch-pin-1">
+      <div class="map-pin" id="busch-pin-1" data-name="Golf Course">
         <i class="fa-solid fa-dove"></i>
-        <span class="pin-number">1</span>
+       
       </div>
     </a>
 
     <a href="#busch-spot-2">
-      <div class="map-pin" id="busch-pin-2">
+      <div class="map-pin" id="busch-pin-2" data-name="The Green">
         <i class="fa-solid fa-dove"></i>
-        <span class="pin-number">2</span>
+      
       </div>
     </a>
 
-    <!-- COLLEGE AVE -->
+    
     <a href="#college-spot-1">
-      <div class="map-pin" id="college-pin">
+      <div class="map-pin" id="college-pin-1" data-name="Raritan River">
         <i class="fa-solid fa-dove"></i>
-        <span class="pin-number">1</span>
+      
+      </div>
+		
+		<a href="#college-spot-2">
+      <div class="map-pin" id="college-pin-2" data-name="Voorhees">
+        <i class="fa-solid fa-dove"></i>
+      
       </div>
     </a>
+    </a>
 
-    <!-- COOK -->
+    
     <a href="#cook-spot-1">
-      <div class="map-pin" id="cook-pin">
+      <div class="map-pin" id="cook-pin" data-name="Cook Farm">
         <i class="fa-solid fa-dove"></i>
-        <span class="pin-number">1</span>
+      
       </div>
     </a>
 
-    <!-- DOUGLASS -->
-    <a href="#doug-spot-1">
-      <div class="map-pin" id="doug-pin">
-        <i class="fa-solid fa-dove"></i>
-        <span class="pin-number">2</span>
-      </div>
-    </a>
+   
+ 
 	</div>
+<div class="map-legend">
+  <div class="legend-item">
+    <span class="legend-color livi"></span>
+    <span>Livingston</span>
+  </div>
 
+  <div class="legend-item">
+    <span class="legend-color busch"></span>
+    <span>Busch</span>
+  </div>
+
+  <div class="legend-item">
+    <span class="legend-color college"></span>
+    <span>College Ave</span>
+  </div>
+
+  <div class="legend-item">
+    <span class="legend-color cook"></span>
+    <span>Cook/Douglass</span>
+  </div>
+</div>
   <p class="map-credit">
     Image by Rutgers University via
     <a href="https://transition.rutgers.edu/students/campus-tours" target="_blank">
@@ -108,10 +130,9 @@
     </a>
   </p>
 </div>
-<!-- WRITING SECTIONS -->
-<div class="page-header-card">
-  <section class="bird-sections">
 
+  
+<div class="campus-card">
     <h2 id="livi">Livingston</h2>
 <p>While it feels as though Livingston campus is the smallest campus in terms of buildings, it has an expansive amount of undeveloped space and natural reserves.  It is the perfect place for bird watching.</p>
     <div class="location-block" id="livi-spot-1">
@@ -124,18 +145,21 @@
 
     <div class="location-block" id="livi-spot-2">
       <h3>2. The Quad Near Tillet Hall</h3>
+		<img src="images/Quad.300.jpg" alt="The Quad">
       <p>
         This quad consists of the area of land surrounded by Tillet Hall, Lucy Stone, and the Quads.  It is home to beautiful weeping cherries and walking paths.  You will often come across starlings, Canadian Geese, and sparrows.
       </p>
-		<p><a href="#">Back to Top</a></p>
+		
     </div>
+	 </div>
 
-
+ <div class="campus-card">
     <h2 id="busch">Busch</h2>
-	  Busch is a large campus with many different birding spots.  It being spread out and having many stadiums provides the perfect environment for many different birds.
+	  <p>Busch is a large campus with many different birding spots.  It being spread out and having many stadiums provides the perfect environment for many different birds.</p>
 
     <div class="location-block" id="busch-spot-1">
       <h3>1. Near the Golf Course</h3>
+		<img src="images/golf.300.jpg" alt="Golf Course">
       <p>
         The area near the golf course is surrounded by lots of green fields and evergreens.  It is a perfect spot for finding vultures, Canadian Geese, Red-tailed Hawks, and other birds of prey.
       </p>
@@ -143,27 +167,38 @@
 
     <div class="location-block" id="busch-spot-2">
       <h3>2. The Green</h3>
+		<img src="images/Green.300.jpg" alt="The Green">
       <p>
         The lawn that is in between EMSOP, Woody's Cafe, the Library of Science and Medicine, and the Nelson labs is a perfect spot to see Canadian Geese, sparrows, goldfinches, and robins.
       </p>
-		<p><a href="#">Back to Top</a></p>
+		
     </div>
+	 </div>
 
-
+ <div class="campus-card">
     <h2 id="college">College Ave</h2>
 <p>Even though College Ave is the busiest campus, right across from it is the Raritan River.  It is home to a large amount of animals and birds.  This is arguably the best place for birding at Rutgers.</p>
-    <div class="location-block" id="college-spot-1">
-      <h3>1. Raritan River</h3>
-		<img src="images/r_river.300.jpg" alt="Raritan River">
+   <div class="location-block" id="college-spot-1">
+  <h3>1. Raritan River</h3>
+  <img src="images/r_river.300.jpg" alt="Raritan River">
+  <p>
+        The best birding spot near College Ave is along the Raritan River.  It is home to so many different types of birds including ospreys, egrets, ducks, and occasionally swans.  
+      </p>
+	   </div>
+		
+<div class="location-block" id="college-spot-2">
+	  <h3>2. Voorhees</h3>
+		<img src="images/Voorhees.300.jpg" alt="Voorhees Green">
       <p>
         The best birding spot near College Ave is along the Raritan River.  It is home to so many different types of birds including ospreys, egrets, ducks, and occasionally swans.  
       </p>
-		<p><a href="#">Back to Top</a></p>
+		
     </div>
+	 </div>
 
-
+ <div class="campus-card">
     <h2 id="cook">Cook/Douglass</h2>
-	  Cook/Douglass is arguably the least busy campus.  Therefore, it is a great spot for birding.  In addition to seeing the horses patrolling campus, it is impossible to ignore the birds that live there.
+	  <p>Cook/Douglass is arguably the least busy campus.  Therefore, it is a great spot for birding.  In addition to seeing the horses patrolling campus, it is impossible to ignore the birds that live there.</p>
 
     <div class="location-block" id="cook-spot-1">
       <h3>1. Cook Farm</h3>
@@ -172,17 +207,13 @@
         The Cook Farm is home to many different farm animals, but it is also home to many different types of birds.  You can frequently see Red-tailed Hawks, Canadian Geese, robins, sparrows, and occasionally cardinals.
       </p>
     </div>
+	 <p><a href="#">Back to Top</a></p>
+	 </div>
+		
+    
 
-    <div class="location-block" id="doug-spot-1">
-      <h3>2. "The Kissing Bridge" </h3>
-      <p>
-        "The Kissing Bridge" overlooks a large ravine in a forested area.  It is a great spot for birding since it is secluded from the majority of campus and not frequented by students.  You can often see Red-tailed Hawks, Bald Eagles, and various waterbirds like Blue Herons.
-      </p>
-		<p><a href="#">Back to Top</a></p>
-    </div>
 
-  </section>
-</div>
+
 	</main>
 <footer>
   <p>&copy; In Flight 2026</p>
