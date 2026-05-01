@@ -13,7 +13,7 @@ body {
 	align-items: left;
     padding: 0;
     color: #2a2a2a;
-    background: #F3F3F3;
+    background: #b7c7d3;
     font-family: Arial, sans-serif;
     font-size: 20px;
     line-height: 1.6;
@@ -58,7 +58,7 @@ a:hover {
     width: 90%;
     margin: 0 auto;
     background: #DBEDF9;
-    border: 2px solid white;
+    border: 2px solid #ffffff;
 }
 .wrapper > h1 {
     padding: 20px;
